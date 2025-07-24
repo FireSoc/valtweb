@@ -4,7 +4,7 @@ import { auth, db } from '../firebase';
 import { doc, setDoc, addDoc, collection } from 'firebase/firestore';
 
 const clientId = 'b3fe5282-388e-4628-8078-4d4d1d4fb559';
-const redirectUri = 'http://localhost:3000/home';
+const redirectUri = 'http://localhost:3000/overview';
 const whoopAuthUrl = `https://api.prod.whoop.com/oauth/oauth2/auth`;
 
 const Whoop = () => {
