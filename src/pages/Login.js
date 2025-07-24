@@ -12,7 +12,7 @@ const Login = () => {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate("/home");
+      navigate("/Overview");
     } catch (err) {
       alert(err.message);
     }

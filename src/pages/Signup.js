@@ -13,7 +13,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       await createUserWithEmailAndPassword(auth, email, password);
-      navigate('/home');
+      navigate('/Overview');
     } catch (error) {
       alert(error.message);
     }
@@ -22,7 +22,7 @@ const Signup = () => {
   const handleGoogleLogin = async () => {
     try {
       await signInWithPopup(auth, googleProvider);
-      navigate('/home');
+      navigate('/Overview');
     } catch (err) {
       alert(err.message);
     }
