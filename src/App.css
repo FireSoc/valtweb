@@ -40,14 +40,14 @@
 .dashboard {
   max-width: 800px;
   margin: 0 auto;
-  background: white;
+  background: #000000;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .summary {
-  background-color: #e8f4fc;
+  background-color: #fafafa;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 30px;
@@ -76,6 +76,6 @@
 .vital-label {
   font-weight: 600;
   font-size: 18px;
-  color: #333;
+  color: rgb(76, 175, 80);
   margin-top: 8px;
 }

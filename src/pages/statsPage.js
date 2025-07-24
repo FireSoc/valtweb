@@ -32,9 +32,9 @@ const StatsPage = () => {
                 text={`${vital.value}`}
                 styles={buildStyles({
                   textSize: '24px',
-                  pathColor: `rgba(62, 152, 199, ${vital.value / 100})`,
-                  textColor: '#000',
-                  trailColor: '#f0f0f0',
+                  pathColor: `rgba(76, 175, 80, ${vital.value / 100})`,
+                  textColor: 'rgba(252, 252, 252, 1)',
+                  trailColor: '#ffffffff',
                   backgroundColor: '#fff',
                 })}
               />

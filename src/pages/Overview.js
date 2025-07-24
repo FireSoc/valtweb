@@ -47,6 +47,7 @@ const Overview = () => {
         <p>Loading your data...</p>
       )}
       <button onClick={logout}>Logout</button>
+      <p>Already have an account? <a href="./stats">Statistics</a></p>
       <Whoop />
     </div>
   );
