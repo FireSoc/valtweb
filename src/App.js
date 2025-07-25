@@ -5,6 +5,7 @@ import { auth } from './firebase';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Overview from './pages/Overview';
+import StatsPage from './pages/statsPage';
 import NavBar from "./NavBar";
 
 // Protected Route component
@@ -25,8 +26,6 @@ function App() {
     return <div>Loading...</div>;
   }
 
-  <NavBar />
-
   return (
     <Router>
       <NavBar />
@@ -37,6 +36,11 @@ function App() {
         <Route path="/Overview" element={
           <ProtectedRoute>
             <Overview />
+          </ProtectedRoute>
+        } />
+        <Route path="/stats" element={
+          <ProtectedRoute>
+            <StatsPage />
           </ProtectedRoute>
         } />
       </Routes>

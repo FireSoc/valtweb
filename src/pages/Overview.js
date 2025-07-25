@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css';
-import valtLogo from "../assets/valt logo prototype.png"; 
 import NavBar from "../NavBar";
 
 const CircleChart = ({ title, value, maxValue, unit, color, size = 'normal' }) => {
